@@ -1,0 +1,40 @@
+/* EFSPUR Labs logo palette: black, electric cyan, vivid blue and silver-white. */
+:root {
+  --ink: #02070b;
+  --paper: #f5f8fb;
+  --acid: #08ccff;
+  --orange: #096dff;
+  --muted: #526170;
+  --line: #cbd8e2;
+}
+
+.brand-logo { display: block; height: 52px; }
+.brand-logo img { display: block; width: auto; height: 100%; object-fit: contain; }
+.site-header .brand-logo { height: 54px; }
+.site-header { background: rgba(245, 248, 251, .86); backdrop-filter: blur(16px); }
+
+.glow-one { background: #08ccff; opacity: .22; }
+.glow-two { background: #096dff; opacity: .15; }
+.eyebrow span, .process .section-kicker, .pricing .section-kicker { background-color: #08ccff; color: #096dff; }
+h1 em, .intro h2 em, .process>h2 em, .pricing h2 em { color: #096dff; }
+.section-heading .section-kicker, .section-heading h2 em, .project-type, .project-meta a span { color: #08ccff; }
+.work { background: linear-gradient(135deg, #01070d 0%, #061a2f 100%); }
+.zecu .project-art { background: linear-gradient(140deg, #006dff, #09d6fb); }
+.zecu-art-copy b { color: #057dff; }
+.art-sun { background: #9cf0ff; }
+.reasons-card { background: linear-gradient(135deg, #08d4fb, #0876ff); color: #001429; }
+.reason-list, .reason-list>div { border-color: rgba(0, 20, 41, .36); }
+.service-list span, .process-grid span { color: #096dff; }
+.pricing { background: #e8f3fb; }
+.pricing li:before { color: #096dff; }
+.contact { background: radial-gradient(circle at 80% 18%, #19dfff 0, #087bff 35%, #031b38 100%); }
+.contact .section-kicker { color: #a7edff; }
+.contact h2 em { color: #08d7ff; }
+.contact-note { color: #c4efff; }
+footer { background: #02070b; }
+footer .brand-logo { height: 58px; }
+
+@media (max-width: 700px) {
+  .site-header .brand-logo { height: 43px; }
+  footer .brand-logo { height: 45px; }
+}
