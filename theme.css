@@ -8,6 +8,10 @@
   --line: #cbd8e2;
 }
 
+/* Keep the layout locked to the device width, even when animated elements extend outward. */
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+main, section, footer { max-width: 100%; overflow-x: hidden; }
+
 .brand-logo { display: block; height: 52px; }
 .brand-logo img { display: block; width: auto; height: 100%; object-fit: contain; }
 .site-header .brand-logo { height: 54px; }
@@ -36,6 +40,10 @@ footer { background: #02070b; }
 footer .brand-logo { height: 58px; }
 
 @media (max-width: 700px) {
+  h1, h2, h3, p, a { overflow-wrap: anywhere; }
+  .intro-grid, .section-heading, .pricing, .project-grid, .process-grid { min-width: 0; max-width: 100%; }
+  .project-meta { min-width: 0; }
+  .project-meta h3 { min-width: 0; }
   .site-header .brand-logo { height: 43px; }
   footer .brand-logo { height: 45px; }
   .single-project-grid { grid-template-columns: minmax(0, 1fr); }
