@@ -37,8 +37,33 @@ h1 em, .intro h2 em, .process>h2 em, .pricing h2 em { color: #096dff; }
 .contact .section-kicker { color: #a7edff; }
 .contact h2 em { color: #08d7ff; }
 .contact-note { color: #c4efff; }
-footer { background: #02070b; }
-footer .brand-logo { height: 58px; }
+footer {
+  background: #02070b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 48px 6vw 42px;
+  text-align: center;
+}
+footer .brand-logo { height: 86px; }
+footer p, footer p:last-child {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+footer p:nth-of-type(1) {
+  color: #d9f7ff;
+  font-size: 11px;
+  letter-spacing: .18em;
+}
+footer p:last-child {
+  max-width: 300px;
+  color: #9ba8af;
+  font-size: 9px;
+  line-height: 1.7;
+}
 
 @media (max-width: 700px) {
   h1, h2, h3, p, a { overflow-wrap: anywhere; }
@@ -46,6 +71,7 @@ footer .brand-logo { height: 58px; }
   .project-meta { min-width: 0; }
   .project-meta h3 { min-width: 0; }
   .site-header .brand-logo { height: 43px; }
-  footer .brand-logo { height: 45px; }
+  footer { gap: 15px; padding: 42px 6vw 38px; }
+  footer .brand-logo { height: 78px; }
   .single-project-grid { grid-template-columns: minmax(0, 1fr); }
 }
