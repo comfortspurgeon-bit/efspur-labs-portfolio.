@@ -9,8 +9,9 @@
 }
 
 /* Keep the layout locked to the device width, even when animated elements extend outward. */
-html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
-main, section, footer { max-width: 100%; overflow-x: hidden; }
+html, body { width: 100%; max-width: 100%; overflow-x: clip; overscroll-behavior-x: none; touch-action: pan-y; }
+body { position: relative; min-width: 0; }
+main, section, footer { max-width: 100%; overflow-x: clip; }
 
 .brand-logo { display: block; height: 52px; }
 .brand-logo img { display: block; width: auto; height: 100%; object-fit: contain; }
