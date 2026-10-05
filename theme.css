@@ -19,6 +19,7 @@
 h1 em, .intro h2 em, .process>h2 em, .pricing h2 em { color: #096dff; }
 .section-heading .section-kicker, .section-heading h2 em, .project-type, .project-meta a span { color: #08ccff; }
 .work { background: linear-gradient(135deg, #01070d 0%, #061a2f 100%); }
+.single-project-grid { grid-template-columns: minmax(0, 720px); }
 .zecu .project-art { background: linear-gradient(140deg, #006dff, #09d6fb); }
 .zecu-art-copy b { color: #057dff; }
 .art-sun { background: #9cf0ff; }
@@ -37,4 +38,5 @@ footer .brand-logo { height: 58px; }
 @media (max-width: 700px) {
   .site-header .brand-logo { height: 43px; }
   footer .brand-logo { height: 45px; }
+  .single-project-grid { grid-template-columns: minmax(0, 1fr); }
 }
