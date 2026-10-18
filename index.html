@@ -2,90 +2,333 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="qZyi5XKroiOpXkutyhzOLKqUb9zGmqepa9h5Yx8v-LU" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="EFSPUR Labs is a Kenyan digital studio engineering thoughtful websites and digital solutions." />
-  <title>EFSPUR Labs — Engineering What's Next.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>EFSPUR Labs — Engineering What’s Next.</title>
+  <meta name="description" content="EFSPUR Labs is a Kenyan digital studio building websites, web apps and digital solutions for churches, schools, businesses and communities." />
+  <meta name="theme-color" content="#02070b" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EFSPUR Labs — Engineering What’s Next." />
+  <meta property="og:description" content="A Kenyan digital studio building websites, web apps and digital solutions that people can actually use." />
+  <meta property="og:image" content="https://comfortspurgeon-bit.github.io/efspur-labs-portfolio./og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="theme.css" />
-  <link rel="stylesheet" href="motion.css" />
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
   <header class="site-header">
-    <a class="brand brand-logo" href="#top" aria-label="EFSPUR Labs home"><img src="efspur-labs-logo.png" alt="EFSPUR Labs — Engineering What's Next." /></a>
-    <button class="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
-    <nav class="site-nav" aria-label="Main navigation">
-      <a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact" class="nav-cta">Start a project <span>↗</span></a>
-    </nav>
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="EFSPUR Labs home"><img src="logo-mark.png" alt="" width="76" height="40" /><span>EFSPUR <i>LABS</i></span></a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+      <nav id="nav" class="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">Start a project <span>↗</span></a>
+      </nav>
+    </div>
   </header>
 
   <main id="top">
-    <section class="hero section-pad">
-      <div class="eyebrow reveal"><span></span> Kenyan digital studio</div>
-      <h1>Engineering<br><em>what's next.</em></h1>
-      <div class="hero-bottom reveal">
-        <p>We design and build purposeful digital experiences that help organisations show up clearly, connect deeply, and move forward.</p>
-        <a class="button button-dark" href="#contact">Build with us <span>↗</span></a>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Kenyan digital studio</p>
+          <h1>Engineering <span class="grad">what’s next.</span></h1>
+          <p class="hero-lead">We design and build purposeful websites and digital systems that help organisations show up clearly, connect deeply and move forward.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Build with us <span>↗</span></a>
+            <a class="btn btn-ghost" href="#work">See our work</a>
+          </div>
+        </div>
+
+        <div class="devices" aria-hidden="true">
+          <div class="laptop">
+            <div class="frame-bar"><i></i><i></i><i></i><em>zecu website</em></div>
+            <div class="screen zecu-mock">
+              <div class="z-nav"><b>ZECU</b><span>This week · About · Departments · Join us</span></div>
+              <div class="z-hero">
+                <h4>Where everybody <b>is somebody.</b></h4>
+                <p>Worship, Bible study, prayer and fellowship for Zetech University students.</p>
+                <span class="z-btn">Join us</span>
+              </div>
+              <div class="z-week">
+                <div><small>Mon</small>Intercessory prayer</div>
+                <div><small>Tue</small>Worship practice</div>
+                <div><small>Wed</small>Bible study</div>
+                <div><small>Thu</small>Worship practice</div>
+                <div class="main"><small>Fri</small>Main fellowship<em>Start here</em></div>
+              </div>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="screen zecu-mock phone-screen">
+              <div class="z-nav"><b>ZECU</b></div>
+              <div class="z-hero">
+                <h4>Where everybody <b>is somebody.</b></h4>
+                <span class="z-btn">Join us</span>
+              </div>
+              <div class="z-week">
+                <div class="main"><small>Fri</small>Main fellowship<em>Start here</em></div>
+              </div>
+            </div>
+          </div>
+          <div class="glow-ring"></div>
+        </div>
       </div>
-      <div class="hero-orbit" aria-hidden="true"><span>●</span><div>EFSPUR<br>LABS</div></div>
-      <div class="scroll-cue"><span></span> Scroll to explore</div>
+      <div class="wrap">
+        <ul class="trust">
+          <li>Mobile-first builds</li>
+          <li>WhatsApp-connected</li>
+          <li>M-Pesa-ready</li>
+          <li>Made in Kenya</li>
+        </ul>
+      </div>
     </section>
 
-    <section class="intro section-pad reveal-section" id="about">
-      <p class="section-kicker">The EFSPUR approach</p>
-      <div class="intro-grid">
-        <h2>Digital work with <em>direction.</em></h2>
-        <div><p class="lead">EFSPUR Labs is a web-development and technology studio for organisations ready to make a more confident impression online.</p><p>We pair considered design with practical technology, turning an idea, a growing business, or a community mission into a site people can actually use.</p></div>
+    <!-- APPROACH -->
+    <section class="section" id="about">
+      <div class="wrap two-col reveal">
+        <div>
+          <p class="kicker">The EFSPUR approach</p>
+          <h2>Digital work with <span class="grad">direction.</span></h2>
+        </div>
+        <div class="prose">
+          <p class="lead">EFSPUR Labs is a web-development and technology studio for organisations ready to make a more confident impression online.</p>
+          <p>We pair considered design with practical technology, turning an idea, a growing business or a community mission into a site people can actually use.</p>
+        </div>
       </div>
     </section>
 
-    <section class="work section-pad reveal-section" id="work">
-      <div class="section-heading"><div><p class="section-kicker">01 / Selected work</p><h2>Made to mean<br><em>something.</em></h2></div><p>A thoughtful digital home can make the first online interaction feel as welcoming as the real one.</p></div>
-      <div class="project-grid single-project-grid">
-        <article class="project-card zecu">
-          <div class="project-art"><div class="art-window"><div class="art-nav">ZECU <span>HOME&nbsp;&nbsp; ABOUT&nbsp;&nbsp; MINISTRIES</span></div><div class="zecu-art-copy">Growing<br>together <b>in faith.</b></div><div class="art-sun"></div></div></div>
-          <div class="project-meta"><div><p class="project-type">Community / Website</p><h3>Zetech Christian Union</h3></div><a href="https://zetec-christianunion-zecu.netlify.app" target="_blank" rel="noreferrer" aria-label="Visit Zetech Christian Union website">View site <span>↗</span></a></div>
+    <!-- FOUNDER -->
+    <section class="section section-tight" id="founder">
+      <div class="wrap founder-grid reveal">
+        <figure class="founder-photo"><img src="founder.jpg" width="720" height="1080" loading="lazy" alt="Comfort Spurgeon, Founder and Lead Developer of EFSPUR Labs" /></figure>
+        <div class="founder-copy">
+          <p class="kicker">Meet the founder</p>
+          <h2>The person behind <span class="grad">EFSPUR.</span></h2>
+          <h3 class="founder-name">Comfort Spurgeon</h3>
+          <p class="founder-role">Founder &amp; Lead Developer</p>
+          <p>Comfort is passionate about technology and software development, and is currently pursuing a degree in Software Engineering. He started EFSPUR Labs to build digital work that is clear, useful and made with care.</p>
+          <p>When you work with EFSPUR Labs, you work directly with the person building your project, from the first conversation through to launch and beyond.</p>
+          <ul class="facts">
+            <li><span>Role</span><b>Founder &amp; Lead Developer</b></li>
+            <li><span>Studying</span><b>Software Engineering</b></li>
+            <li><span>Focus</span><b>Web &amp; software development</b></li>
+          </ul>
+          <a class="text-link" href="#contact">Work with Comfort <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="kicker">01 / Selected work</p><h2>Made to mean <span class="grad">something.</span></h2></div>
+          <p>A thoughtful digital home can make the first online interaction feel as welcoming as the real one.</p>
+        </div>
+
+        <article class="case reveal">
+          <div class="case-media">
+            <div class="laptop big" aria-hidden="true">
+              <div class="frame-bar"><i></i><i></i><i></i><em>zetec-christianunion-zecu.netlify.app</em></div>
+              <div class="screen zecu-mock">
+                <div class="z-nav"><b>ZECU</b><span>This week · About · What we do · Departments · FAQ · Join us</span></div>
+                <div class="z-hero">
+                  <h4>Where everybody <b>is somebody.</b></h4>
+                  <p>ZECU is the Christian Union of Zetech University, Ruiru Campus: students growing in Christ, loving one another and living out our faith.</p>
+                  <span class="z-btn">Join us</span>
+                </div>
+                <div class="z-week">
+                  <div class="today"><small>Mon</small>Intercessory prayer<em>Today</em></div>
+                  <div><small>Tue</small>Worship practice</div>
+                  <div><small>Wed</small>Bible study</div>
+                  <div><small>Thu</small>Worship practice</div>
+                  <div class="main"><small>Fri</small>Main fellowship<em>Start here</em></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="case-copy">
+            <p class="tag">Community · Website</p>
+            <h3>ZECU — Zetech University Christian Union, Ruiru Campus</h3>
+            <p>A welcoming home for a student fellowship. New students can see the weekly programme, find where to start and reach a leader in one tap.</p>
+            <ul class="checks">
+              <li>Weekly programme that highlights today’s meeting automatically</li>
+              <li>One-tap call and WhatsApp buttons for leaders</li>
+              <li>Departments, FAQs and a photo gallery in one clear page</li>
+              <li>Mobile-first layout with a pinned menu and light or dark mode</li>
+            </ul>
+            <p class="stack">HTML · CSS · JavaScript · Netlify</p>
+            <a class="btn btn-primary" href="https://zetec-christianunion-zecu.netlify.app" target="_blank" rel="noreferrer" aria-label="Visit the Zetech Christian Union website">Visit live site <span>↗</span></a>
+          </div>
         </article>
+
+        <div class="mini-cases">
+          <article class="mini reveal">
+            <p class="tag">Web app · In development</p>
+            <h3>Learning platform (LMS)</h3>
+            <p>A full learning management system: courses, learners and progress tracking in one place. Coming soon to this portfolio.</p>
+            <span class="pill">Coming soon</span>
+          </article>
+          <article class="mini mini-cta reveal">
+            <p class="tag">Your project</p>
+            <h3>Your organisation could be next.</h3>
+            <p>Tell us what you are building and we will help you find the clearest next step.</p>
+            <a class="text-link" href="#contact">Start a project <span>↗</span></a>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="services section-pad reveal-section" id="services">
-      <div class="section-heading"><div><p class="section-kicker">02 / What we do</p><h2>Useful by design.</h2></div><p>Whether you are starting from a blank page or outgrowing an old one, we bring the right pieces together.</p></div>
-      <div class="service-list">
-        <article><span>01</span><h3>Web design & development</h3><p>Custom, responsive websites that are clear, fast and made around your goals.</p></article>
-        <article><span>02</span><h3>Digital identity</h3><p>Visual direction and practical brand systems that make a strong first impression.</p></article>
-        <article><span>03</span><h3>Site refreshes</h3><p>A sharper, more useful new chapter for an existing website or digital presence.</p></article>
-        <article><span>04</span><h3>Ongoing support</h3><p>Thoughtful updates and improvements, so your site keeps working after launch.</p></article>
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="kicker">02 / What we do</p><h2>Useful by <span class="grad">design.</span></h2></div>
+          <p>Whether you are starting from a blank page or outgrowing an old one, we bring the right pieces together.</p>
+        </div>
+        <div class="service-grid">
+          <article class="card reveal"><span class="num">01</span><h3>Web design &amp; development</h3><p>Custom, responsive websites that are clear, fast and made around your goals.</p></article>
+          <article class="card reveal"><span class="num">02</span><h3>Web apps &amp; systems</h3><p>Learning platforms (LMS), portals and dashboards that make day-to-day work simpler.</p></article>
+          <article class="card reveal"><span class="num">03</span><h3>Mobile apps</h3><p>Focused mobile applications for organisations that want to reach people on their phones.</p></article>
+          <article class="card reveal"><span class="num">04</span><h3>Digital identity</h3><p>Visual direction and practical brand systems that make a strong first impression.</p></article>
+          <article class="card reveal"><span class="num">05</span><h3>Site refreshes</h3><p>A sharper, more useful new chapter for an existing website or digital presence.</p></article>
+          <article class="card reveal"><span class="num">06</span><h3>Ongoing support</h3><p>Thoughtful updates and improvements, so your site keeps working after launch.</p></article>
+        </div>
+        <div class="integrations reveal">
+          <p class="kicker">Built to connect with</p>
+          <ul>
+            <li>M-Pesa payment details</li>
+            <li>WhatsApp contact</li>
+            <li>Google Maps directions</li>
+            <li>Social media</li>
+            <li>Contact forms</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="reasons section-pad reveal-section">
-      <div class="reasons-card"><div class="reason-title"><p class="section-kicker">Why EFSPUR</p><h2>Less noise.<br>More <em>progress.</em></h2></div><div class="reason-list"><div><b>01</b><h3>Built around people</h3><p>We make the important things easy to find, understand and act on.</p></div><div><b>02</b><h3>Clear collaboration</h3><p>A straightforward process, with shared decisions and no mystery along the way.</p></div><div><b>03</b><h3>Designed to grow</h3><p>Solid foundations that leave room for your next idea, update or milestone.</p></div></div></div>
+    <!-- WHY + PROCESS -->
+    <section class="section">
+      <div class="wrap">
+        <div class="why reveal">
+          <div class="why-title"><p class="kicker">Why EFSPUR</p><h2>Less noise.<br>More <span class="grad">progress.</span></h2></div>
+          <div class="why-list">
+            <div><b>01</b><div><h3>Built around people</h3><p>We make the important things easy to find, understand and act on.</p></div></div>
+            <div><b>02</b><div><h3>Clear collaboration</h3><p>A straightforward process, with shared decisions and no mystery along the way.</p></div></div>
+            <div><b>03</b><div><h3>Designed to grow</h3><p>Solid foundations that leave room for your next idea, update or milestone.</p></div></div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="process section-pad reveal-section">
-      <p class="section-kicker">03 / Our process</p><h2>Good work starts<br>with a good <em>conversation.</em></h2>
-      <div class="process-grid"><div><span>01</span><h3>Discover</h3><p>We listen to your needs, audience and vision.</p></div><div><span>02</span><h3>Design</h3><p>We shape a considered direction for your digital home.</p></div><div><span>03</span><h3>Develop</h3><p>We bring it to life with focused, reliable craft.</p></div><div><span>04</span><h3>Launch</h3><p>We help you step forward with confidence.</p></div></div>
+    <section class="section section-tight" id="process">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="kicker">03 / Our process</p>
+          <h2>Good work starts with a good <span class="grad">conversation.</span></h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><span>01</span><h3>Discover</h3><p>We listen to your needs, audience and vision.</p></li>
+          <li class="reveal"><span>02</span><h3>Design</h3><p>We shape a considered direction for your digital home.</p></li>
+          <li class="reveal"><span>03</span><h3>Develop</h3><p>We bring it to life with focused, reliable craft.</p></li>
+          <li class="reveal"><span>04</span><h3>Launch</h3><p>We help you step forward with confidence.</p></li>
+        </ol>
+      </div>
     </section>
 
-    <section class="pricing section-pad reveal-section">
-      <div><p class="section-kicker">04 / Investment</p><h2>Start with<br><em>the right scope.</em></h2></div>
-      <div class="pricing-copy"><p>Every project has different needs. Tell us what you are building and we will shape a clear, tailored quote around the work that matters.</p><ul><li>Tailored to your goals</li><li>Clear project scope</li><li>Built for long-term value</li></ul><a class="text-link" href="#contact">Request a quote <span>↗</span></a></div>
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="kicker">04 / Investment</p><h2>Start with the right <span class="grad">scope.</span></h2></div>
+          <p>Every project is different. Choose the closest fit and we will shape a clear, tailored quote around the work that matters.</p>
+        </div>
+        <div class="price-grid">
+          <article class="plan reveal">
+            <h3>Starter</h3>
+            <p class="plan-for">For a church, group or small business that needs a clear online home.</p>
+            <ul class="checks">
+              <li>Single-page or small website</li>
+              <li>Mobile-friendly design</li>
+              <li>WhatsApp and email contact</li>
+              <li>Launch support</li>
+            </ul>
+            <a class="btn btn-ghost" href="#contact">Request a quote</a>
+          </article>
+          <article class="plan plan-hot reveal">
+            <h3>Standard</h3>
+            <p class="plan-for">For organisations that need a fuller site with more content and features.</p>
+            <ul class="checks">
+              <li>Multi-section website</li>
+              <li>Custom design and brand feel</li>
+              <li>Integrations such as maps, social and payment details</li>
+              <li>Launch and follow-up support</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Request a quote <span>↗</span></a>
+          </article>
+          <article class="plan reveal">
+            <h3>Custom</h3>
+            <p class="plan-for">For web apps, learning platforms (LMS) and mobile apps built around your process.</p>
+            <ul class="checks">
+              <li>Scoped around your requirements</li>
+              <li>Accounts, dashboards and data</li>
+              <li>Phased delivery</li>
+              <li>Ongoing support</li>
+            </ul>
+            <a class="btn btn-ghost" href="#contact">Request a quote</a>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section class="contact section-pad reveal-section" id="contact">
-      <p class="section-kicker">Let’s make it real</p><h2>Have something<br>in <em>mind?</em></h2>
-      <p class="contact-copy">Tell us a little about your organisation or idea. We’ll help you find the clearest next step.</p>
-      <div class="contact-actions"><a class="button button-light" href="mailto:efspurlabs@gmail.com">Email EFSPUR Labs <span>↗</span></a><a class="button button-outline whatsapp-button" href="https://wa.me/254792772785" target="_blank" rel="noreferrer"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2.1 0-4.1-.6-5.8-1.7l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.9-.9-3.2-1.8-4.4-3.9-.3-.5.3-.5.8-1.4.1-.2.1-.4 0-.6l-1-2.3c-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3 0 1.8 1.3 3.4 1.5 3.6.2.2 2.4 3.8 5.9 5.3 2.2 1 3.1 1.1 4.2.9.7-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/></svg><span>Chat on WhatsApp</span><b>↗</b></a></div>
-      <div class="contact-details"><a href="mailto:efspurlabs@gmail.com">efspurlabs@gmail.com</a><a href="mailto:comfortspurgeon@gmail.com">comfortspurgeon@gmail.com</a><a href="tel:+254792772785">+254 792 772 785</a></div>
+    <!-- FAQ -->
+    <section class="section section-tight" id="faq">
+      <div class="wrap faq-grid">
+        <div class="reveal"><p class="kicker">Questions</p><h2>Good to <span class="grad">know.</span></h2></div>
+        <div class="faq reveal">
+          <details><summary>How long does a project take?</summary><p>It depends on the scope. We agree a clear schedule with you in the first conversation, so you know what to expect before work begins.</p></details>
+          <details><summary>Can you work with us from anywhere in Kenya?</summary><p>Yes. We work over WhatsApp, calls and email, so your location is not a barrier.</p></details>
+          <details><summary>Can you update our site after it launches?</summary><p>Yes. Ongoing support is part of what we do, from small content updates to new sections and features.</p></details>
+          <details><summary>Can the site show payment and contact details?</summary><p>We can add M-Pesa payment details, WhatsApp contact buttons, Google Maps directions and contact forms, depending on what your organisation needs.</p></details>
+          <details><summary>Do you help with domain names and hosting?</summary><p>Yes. We will guide you through choosing and setting up a domain and hosting that fit your budget.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-card reveal">
+          <p class="kicker">Let’s make it real</p>
+          <h2>Have something<br>in <span class="grad-light">mind?</span></h2>
+          <p class="contact-copy">Tell us a little about your organisation or idea. We’ll help you find the clearest next step.</p>
+          <div class="contact-actions">
+            <a class="btn btn-light" href="mailto:efspurlabs@gmail.com">Email EFSPUR Labs <span>↗</span></a>
+            <a class="btn btn-outline" href="https://wa.me/254792772785" target="_blank" rel="noreferrer"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2.1 0-4.1-.6-5.8-1.7l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.9-.9-3.2-1.8-4.4-3.9-.3-.5.3-.5.8-1.4.1-.2.1-.4 0-.6l-1-2.3c-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3 0 1.8 1.3 3.4 1.5 3.6.2.2 2.4 3.8 5.9 5.3 2.2 1 3.1 1.1 4.2.9.7-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/></svg>Chat on WhatsApp</a>
+          </div>
+          <div class="contact-details"><a href="mailto:efspurlabs@gmail.com">efspurlabs@gmail.com</a><a href="tel:+254792772785">+254 792 772 785</a></div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer><a class="brand brand-logo" href="#top" aria-label="EFSPUR Labs home"><img src="efspur-labs-logo.png" alt="EFSPUR Labs" /></a><p>Engineering What’s Next.</p><p>© <span id="year"></span> EFSPUR Labs. All rights reserved.</p></footer>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="foot-logo" href="#top" aria-label="EFSPUR Labs home"><img src="logo-full.png" alt="EFSPUR Labs — Engineering What’s Next." width="696" height="462" loading="lazy" /></a>
+      <nav class="foot-nav" aria-label="Footer navigation"><a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+      <p class="copy">© <span id="year"></span> EFSPUR Labs. All rights reserved.</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
